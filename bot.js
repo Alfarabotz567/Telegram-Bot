@@ -19,7 +19,7 @@ const speed = require(`performance-now`);
 const moment = require('moment-timezone')
 
 const { color, bgcolor, ConsoleLog, biocolor } = require('./lib/color')
-const { sendVideo, toJson, isUrl, format, getBuffer, getRandom, sendsearch, pushname, sendText} = require('./lib/funcation.js')
+const { sendVideo, toJson, isUrl, format, getBuffer, getRandom, sendsearch, pushname, sendText} = require('./lib/functions.js')
 const setting = require('./lib/setting.js')
 const men = require("./menu/help.js")
 const { TiktokDownloader } = require("./lib/scraper/tiktokdl.js")
